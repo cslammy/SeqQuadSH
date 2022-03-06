@@ -1,0 +1,41 @@
+ 
+BOM for Seq SH
+
+Part     Value   Device          Package      Description                  POPULARITY SPICEPREFIX
+                                  
+                     
+                                    
+                  
+C1       .01uF   C-US050-025X075 C050-025X075 CAPACITOR, American symbol   0          C          
+C2               C-US025-024X044 C025-024X044 CAPACITOR, American symbol   17         C          
+C3               C-US025-024X044 C025-024X044 CAPACITOR, American symbol   17         C          
+C4               C-US025-024X044 C025-024X044 CAPACITOR, American symbol   17         C          
+C5               C-US025-024X044 C025-024X044 CAPACITOR, American symbol   17         C          
+C6               C-US025-024X044 C025-024X044 CAPACITOR, American symbol   17         C          
+C7       .01uF   C-US050-025X075 C050-025X075 CAPACITOR, American symbol   0          C          
+C8               C-US025-024X044 C025-024X044 CAPACITOR, American symbol   17         C          
+C9       .01uF   C-US050-025X075 C050-025X075 CAPACITOR, American symbol   0          C          
+C10              C-US025-024X044 C025-024X044 CAPACITOR, American symbol   17         C          
+C11              C-US025-024X044 C025-024X044 CAPACITOR, American symbol   17         C          
+C12      .01uF   C-US050-025X075 C050-025X075 CAPACITOR, American symbol   0          C          
+C13              C-US025-024X044 C025-024X044 CAPACITOR, American symbol   17         C          
+C14              C-US025-024X044 C025-024X044 CAPACITOR, American symbol   17         C          
+C15              C-US025-024X044 C025-024X044 CAPACITOR, American symbol   17         C          
+                     
+                                  
+IC0      TL081P  TL081P          DIL08        OP AMP  // 071 or 061 should work as well.                                           
+IC2      TL081P  TL081P          DIL08        OP AMP                                             
+IC3      TL081P  TL081P          DIL08        OP AMP                                             
+IC4      TL081P  TL081P          DIL08        OP AMP                                             
+IC5      4051N   4051N           DIL16        8-channel ANALOG MULTIPLEXER 15                    
+                                
+OUT3.            WIREPAD1,6/0,9  1,6/0,9      Wire PAD connect wire on PCB 0                     
+R1       1K      R-US_0204/7     0204/7       RESISTOR, American symbol                          
+R2       1K      R-US_0204/7     0204/7       RESISTOR, American symbol                          
+R3       1K      R-US_0204/7     0204/7       RESISTOR, American symbol                          
+R17      1K      R-US_0204/7     0204/7       RESISTOR, American symbol                          
+                    
+U$1      MCP4921 MCP4921         DIL08                                                           
+ 
+C1`, C7, C9, and C12 should be high quality caps--mylar, poly, etc.
+All other caps are .1uF.
